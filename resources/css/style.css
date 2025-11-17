@@ -1,0 +1,44 @@
+/* Ajustes visuais simples */
+body {
+    background-color: #f8f9fa;
+}
+
+.logo-text {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.movie-card img {
+    object-fit: cover;
+    height: 220px;
+}
+
+
+.sidebar {
+    min-height: 100vh;
+    border-right: 1px solid #dee2e6;
+    background-color: #ffffff;
+}
+
+.sidebar .nav-link {
+    font-size: 0.95rem;
+}
+
+.sidebar .nav-link.active {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.content-wrapper {
+    padding: 1.5rem;
+}
+
+.table-actions .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+}
